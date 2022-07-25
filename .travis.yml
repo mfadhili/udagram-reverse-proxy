@@ -16,7 +16,7 @@ before_script:
 script:
   - sudo docker --version # give info on docker version
   - sudo docker build -t reverse-proxy ./
-  - sudo docker tag api-user mfadhiligitau/udagram-reverse-proxy
+  - sudo docker tag reverse-proxy mfadhiligitau/udagram-reverse-proxy
   - sudo docker --version 
 
 after_success: 
